@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KunuzStore.Api/KunuzStore.Api.csproj" />
+    <Project Path="src/KunuzStore.Application/KunuzStore.Application.csproj" />
+    <Project Path="src/KunuzStore.Domain/KunuzStore.Domain.csproj" />
+    <Project Path="src/KunuzStore.Infrastructure/KunuzStore.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KunuzStore.Tests/KunuzStore.Tests.csproj" />
+  </Folder>
+</Solution>

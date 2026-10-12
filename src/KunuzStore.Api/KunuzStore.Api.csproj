@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KunuzStore.Application\KunuzStore.Application.csproj" />
+    <ProjectReference Include="..\KunuzStore.Infrastructure\KunuzStore.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.*" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.*" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.*" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.*">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Scalar.AspNetCore" Version="2.18.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.*" />
+  </ItemGroup>
+
+</Project>
